@@ -1,0 +1,25 @@
+{
+  "name": "portfolio2020",
+  "version": "1.0.0",
+  "description": "Simple portfolio",
+  "main": "index.html",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "bootstrap": "^4.5.0",
+    "skeleton-css": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caceresGianinna/portfolio2020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caceresGianinna/portfolio2020/issues"
+  },
+  "homepage": "https://github.com/caceresGianinna/portfolio2020#readme"
+}
