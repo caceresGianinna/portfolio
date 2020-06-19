@@ -5,8 +5,7 @@
   "main": "index.html",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
-    "bootstrap": "^4.5.0",
-    "skeleton-css": "^2.0.4"
+    "bootstrap": "^4.5.0"
   },
   "devDependencies": {},
   "scripts": {
