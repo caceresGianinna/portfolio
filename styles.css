@@ -1,60 +1,38 @@
-/* 
-
-font-family: 'PT Sans', sans-serif;
-font-family: 'PT Sans Narrow', sans-serif; 
-
-Colors:
-pastel colors
-rgb(250, 243, 221)  faf3dd yellow
-ffa69e rgb(255, 166, 158) peach
-b8f2e6  rgba(184, 242, 230) aqua
-aed9e0     background-color: rgba(174, 217, 224,0.3);
-5e6472 rgb(94, 100, 114) gray
-*/
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --green: #2e8540;
+    --dark-accent: #494440;
+}
 
 body {
-    background-color: #F3F5F4;
+    background-color: var(--white);
     font-family: 'PT Sans', sans-serif;
     position: relative;
     font-size: 1rem;
-    color: black;
+    color: var(--black);
 }
 
 h1, h2, h3, h4, h5 {
-     font-family: 'PT Sans Narrow', sans-serif; 
+    font-family: 'PT Sans Narrow', sans-serif; 
+}
+
+.badge {
+    font-size: 1rem !important;
+    color: var(--white);
+    margin: 3px;
+    background-color: var(--dark-accent);
+    font-weight: 400 !important;
+}
+
+.badge--bordered {
+    border: 1px solid var(--dark-accent);
+    color: var(--black);
+    background-color: var(--white);
 }
 
 
-.about {
-    background-color: #5e6472;
+.port-well {
+    border: 1px solid var(--dark-accent);
 }
 
-.bg--yellow {
-    background-color: rgba(250, 243, 221, 0.6);
-    border-radius: 10%;
-}
-
-.bg--peach {
-    background-color: rgba(255, 166, 158, 0.2);
-    border-radius: 10%;
-}
-
-.bg--aqua {
-    background-color: rgba(184, 242, 230, 0.4);
-    border-radius: 10%;
-}
-
-.bg--blue { 
-    background-color: rgba(174, 217, 224,0.3);
-    border-radius: 10%;
-}
-
-.bg--gray {
-    background-color:rgba(94, 100, 114, 0.2);
-    border-radius: 10%;
-}
-
-.gray {
-    background-color: #5e6472;
-    color: white;
-}
