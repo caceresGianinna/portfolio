@@ -1,3 +1,5 @@
-# portfolio2020
-Simple portfolio 
-Link: https://caceresgianinna.github.io/portfolio2020/.
+# Portfolio
+
+Minimal portfolio created with: HTML5, CSS3, Bootstrap in one page.
+
+Link: https://caceresgianinna.github.io/portfolio/
